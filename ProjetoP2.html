@@ -1,0 +1,76 @@
+<!---PÁGINA 2 
+Feito por Vitor Olivetti Ramos -- 32023049-->
+<!DOCTYPE html>
+<html>
+    <link type="text/css" rel="stylesheet" href="CSS.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wireframe</title>
+    </head>
+    <body id="fonte">
+        <div>
+            <fieldset id="fieldset">
+                <header id="logo">
+                    <h1>ROV TEC <br>
+                    <img src="logo.png" width = "150px"></h1>
+                </header>
+            </fieldset>
+        </div>
+        <hr>
+        <div id="centro">
+            <a href="file:///C:/Users/olive/OneDrive/%C3%81rea%20de%20Trabalho/Vitor%20Mack/Wireframe/ProjetoP1.html">Home Page</a>
+        </div>
+        <hr>
+        <div id="esquerda">
+            <h1>Contato</h1>
+            <p>Email: rovhardware@example.com </p>
+            <p>Telefone: (11)xxxxx-xxxx</p>
+            <hr>
+            <h1>Fale conosco!</h1>
+        </div>
+        <form id="esquerda">
+            <p>Nome: <br><input type="text" name="nome"></p>
+            <p>Sobrenome: <br><input type="text" name="sobrenome"></p>
+            <p>E-mail: <br><input type="email" name="e-mail"></p>
+            <p>Telefone: <br><input type="" name="telefone"></p>
+            <p>Selecione seu problema:</p>
+            <select name="opções">
+                <option value="Produto">Não acho um produto</option>
+                <option value="Problemas">Problemas com o site</option>
+                <option value="Login">Porblemas com login</option>
+                <option value="Outros">Outros problemas</option>
+            </select>
+        </form>
+        <form id="esquerda">
+            <p>Explique seu probelma:</p>
+            <textarea rows="10" cols="30" ></textarea>
+            <p>Qualidade do atendimento: </p>
+            <input type="radio" name="1" value="1">1
+            <input type="radio" name="2" value="2">2
+            <input type="radio" name="3" value="3">3
+            <input type="radio" name="4" value="4">4
+            <input type="radio" name="5" value="5">5 <br><br>
+        </form>
+        <form id="esquerda">
+            <div>
+                <button type="button" class="botao" onclick="validar()">Enviar</button>
+            </div>
+        </form>
+        <script>
+            var nome = document.getElementById("nome");
+            var sobrenome = document.getElementById("sobrenome");
+            var email = document.getElementById("e-mail");
+            var telefone = document.getElementById("telefone")
+            var opções = document.getElementById("opções")
+
+            function validar(){
+                if (nome.value == "") {
+                alert("Nome não informado");
+            }}
+        </script>
+    </body>
+    <hr>
+    <footer id="direita">
+        <p>Feito por: Vitor Olivetti Ramos</p>
+    </footer>
+</html>

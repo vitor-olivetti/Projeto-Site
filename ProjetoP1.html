@@ -1,0 +1,116 @@
+<!--PÁGINA 1
+Feito por - Vitor Olivetti Ramos -- 32023049
+-->
+
+<!DOCTYPE html>
+<html>
+    <link type="text/css" rel="stylesheet" media="screen" href="CSS.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Wireframe</title>
+    </head>
+
+    <div>
+        <fieldset id="fieldset">
+            <header id="logo">
+                <h1>ROV TEC <br>
+                <img src="logo.png" width = "150px"></h1>
+            </header>
+        </fieldset>
+    </div>
+    <hr>
+        <body id="fonte">
+            <h3 id="centro">Bem-Vindo, as melhores peças para seu computador estão aqui!<br><br>
+            Navegue pelo menu interativo!</h3>
+            <div id="centro">
+                <a href="file:///C:/Users/olive/OneDrive/%C3%81rea%20de%20Trabalho/Vitor%20Mack/Wireframe/ProjetoP2.html">Contato</a>&nbsp;&nbsp;
+                <a href="file:///C:/Users/olive/OneDrive/%C3%81rea%20de%20Trabalho/Vitor%20Mack/Wireframe/ProjetoP3.html">Produtos</a>&nbsp;&nbsp;
+                <a href="file:///C:/Users/olive/OneDrive/%C3%81rea%20de%20Trabalho/Vitor%20Mack/Wireframe/ProjetoP4.html">Quem somos?</a>&nbsp;&nbsp;
+            </div>
+            <hr>
+            <div id="centro">
+                <h1 id="fonte">Primeiro Acesso</h1>
+                <p id="esquerda">Bem-Vindo ao nosso site, aqui você encontra as melhores peças para o seu computador,
+                    além disso, com o preço ideal para seu bolso. Navegue mais pelo site em busca do produto de seu
+                    interesse.<br><br>
+                    Aqui temos uma variedade de produtos, como processadores, placas de video, memórias RAM, placas mãe,
+                    e muitos outros quais estarão disponíveis na página dos produtos, além de hardware, também 
+                    temos os softwares ideais para seu computador! Visite a páigna de produtos
+                    através do nosso menu interativo.<br><br>
+                    Aqui estão alguns produtos que você pode encontrar!<br><br>
+                    <img src = "Processador (1).png" width = "130px"> &nbsp;&nbsp;
+                    <img src = "Placadevideo.png" width = "150px"> &nbsp;&nbsp;
+                    <img src = "placamae.png" width = "180px"> &nbsp;&nbsp;
+                    <img src = "RAM.png" width = "150px"> &nbsp;&nbsp;
+                    <img src = "SSD.png" width = "150px"> &nbsp;&nbsp;
+                    <img src = "kaspersky.png" width = "120px"> &nbsp;&nbsp;
+                    <img src = "windows.png" width = "150px"> <br><br>
+                    Caso tenha algum problema, seja com a página, algum produto não encontrado, ou qualquer outro, basta
+                    acessar a página de contato através do menu interativo para nos explicar seu problema!<br><br>
+                </p>
+            </div>
+            <script>
+                var h3 = document.getElementsByTagName("h3")[0]
+                h3.addEventListener("mouseenter", entra)
+                h3.addEventListener("mouseout", sai)
+
+                function entra(){
+                    h3.style.background = 'lightskyblue'
+                    h3.style.color = 'black'
+                }
+
+                function sai(){
+                    h3.style.background = 'cadetblue'
+                    h3.style.color = 'white'
+                }
+            </script>
+            
+            <script>
+                var h1 = document.getElementsByTagName("h1")[1]
+                h1.addEventListener("mouseenter", entra2)
+                h1.addEventListener("mouseout", sai2)
+
+                function entra2(){
+                    h1.style.background = 'lightskyblue'
+                    h1.style.color = 'black'
+                }
+                function sai2(){
+                    h1.style.background = 'darkcyan'
+                    h1.style.color = 'white'
+                }
+            </script>
+            <script>
+                var div = document.getElementsByTagName("div")[1]
+                div.addEventListener("mouseenter", entra3)
+                div.addEventListener("mouseout", sai3)
+
+                function entra3(){
+                    div.style.background = 'lightskyblue'
+                    div.style.color = 'black'
+                }
+                function sai3(){
+                    div.style.background = 'cadetblue'
+                    div.style.color = 'white'
+                }
+            </script>
+            <script>
+                var p = document.getElementsByTagName("p")[0]
+                p.addEventListener("mouseenter", entra4)
+                p.addEventListener("mouseout", sai4)
+
+                function entra4(){
+                    p.style.background = 'lightskyblue'
+                    p.style.color = 'black'
+                }
+                function sai4(){
+                    p.style.background = 'cadetblue'
+                    p.style.color = 'white'
+                }
+            </script>
+        </body>
+        <hr>
+        <footer id="direita">
+            <script>
+                document.write("Feito por Vitor Olivetti Ramos")
+            </script>
+        </footer>

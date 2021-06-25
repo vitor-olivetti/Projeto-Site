@@ -1,0 +1,57 @@
+/*código css*/
+
+#centro{
+    text-align: center;
+    background-color: cadetblue;
+    padding: 10px;
+    color: #FFF;
+}
+
+#esquerda{
+    text-align: left;
+    letter-spacing: 1px;
+    text-align: justify;
+    background-color: cadetblue;
+    color: #FFF;
+    padding: 10px;
+}
+
+#direita{
+    text-align: right;
+    background-color: darkcyan;
+}
+
+#fonte{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkcyan;
+    color: #FFF;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#login{
+    text-align: left;
+    background-color: cadetblue;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+    color: #FFF;
+}
+
+#busca{
+    text-align: right;
+    background-color: cadetblue;
+    float: right;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#fieldset{
+    background-color: lightskyblue;
+    color: black;
+}
+
+#logo{
+    text-align: center;
+    font-size: 18px;
+}
